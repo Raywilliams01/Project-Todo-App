@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:todoCLI}",
+            "name": "Debug ToDoListCLI",
+            "program": "${workspaceFolder:todoCLI}/.build/debug/ToDoListCLI",
+            "preLaunchTask": "swift: Build Debug ToDoListCLI"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:todoCLI}",
+            "name": "Release ToDoListCLI",
+            "program": "${workspaceFolder:todoCLI}/.build/release/ToDoListCLI",
+            "preLaunchTask": "swift: Build Release ToDoListCLI"
+        }
+    ]
+}
